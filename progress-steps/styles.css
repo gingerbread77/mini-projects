@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+}
+
+.steps-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  background-color: white;
+  transition: 0.4 ease;
+}
+
+/* add a pseudo element to display the grey line */
+.steps-container::before {
+  content: "";
+  position: absolute;
+  background-color: lightgray;
+  top: 50%;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  /* vertically align it to center */
+  transform: translateY(-50%);
+  /* make this element appear above the background*/
+}
+
+.step {
+  border-radius: 50%;
+  border: 3px solid lightgray;
+  color: gray;
+  padding: 10px 15px;
+  z-index: 1;
+  background-color: white;
+  transition: border-color 0.4s ease;
+}
+
+.active {
+  border-color: rgb(23, 172, 23);
+}
+
+.progress {
+  position: absolute;
+  background-color: rgb(23, 172, 23);
+  top: 50%;
+  left: 0;
+  height: 4px;
+  width: 0;
+  /* vertically align it to center */
+  transform: translateY(-50%);
+  transition: width 0.4s ease;
+}
+
+button {
+  margin-top: 50px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+#prev {
+  background-color: lightgray;
+}
+
+#next {
+  background-color: rgb(84, 169, 222);
+}
