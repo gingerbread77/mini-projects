@@ -1,0 +1,56 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(120, 66, 219);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow:hidden;
+}
+
+.search-container{
+  position:relative;
+  height: 50px;
+}
+
+.search-container input{
+  padding:15px;
+  height: 50px;
+  width: 50px;
+  font-size:1em;
+  border:none;
+  transition:width 0.3s ease;
+}
+
+button{
+  /* overlay the button on the input field by default */
+  position:absolute;
+  left:0;
+  top:0;
+  cursor:pointer;
+  width: 50px;
+  height: 50px;
+  border:none;
+  background-color: #fff;
+  /* center the icon */
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size:1.5em;
+  transition:transform 0.3s ease;
+}
+
+/* when icon clicked */
+.search-container.active button{
+  /* button move to right */
+  transform:translateX(180px);
+}
+
+.search-container.active input{
+  width:200px;
+}
