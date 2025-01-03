@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: rgba(188, 188, 159, 0.851);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  background-color: rgb(68, 134, 197);
+  color: #fff;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 15px;
+  transform: translateX(-300%);
+  transition: transform 0.5s ease;
+}
+
+.box:nth-of-type(odd) {
+  transform: translateX(300%);
+}
+
+.box.show {
+  transform: translateX(0);
+}
