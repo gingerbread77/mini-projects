@@ -20,6 +20,7 @@ function updatePage(keyData) {
 
     text.innerHTML = data.label;
     box.innerHTML = data.value;
+    box.style.backgroundColor = "#f1efef";
     key.appendChild(text);
     key.appendChild(box);
     container.appendChild(key);
