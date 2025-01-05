@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(130, 140, 214, 0.426);
+  font-family:'Times New Roman', Times, serif;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin:0;
+}
+
+.container{
+  max-width:80%;
+  width: 800px;
+  padding:50px 100px;
+  text-align: center;
+  background-color: #fff;
+  border-radius:10px;
+}
+
+h3{
+  color:#555;
+  margin-bottom:30px;
+  font-size:1.5rem;
+}
+
+.joke{
+  font-size:1.5rem;
+  margin-bottom:20px;
+}
+
+button{
+  padding:10px 20px;
+  border:none;
+  background-color: rgba(62, 10, 62, 0.638);
+  color:#fff;
+  border-radius:10px;
+  font-size:1rem;
+  cursor:pointer;
+}
+
+
