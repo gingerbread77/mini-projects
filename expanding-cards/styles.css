@@ -15,7 +15,7 @@ body {
 
 .container {
   display: flex;
-  width: 80vw;
+  width: 90vw;
 }
 
 .card {
@@ -60,8 +60,9 @@ body {
   left: 20px;
   bottom: 25px;
   color: white;
-  font-size: 2em;
+  font-size: 1.7rem;
   opacity: 0;
+  transition:opacity 0.3s ease-in 0.4s;
 }
 
 .active {
