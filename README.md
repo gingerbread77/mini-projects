@@ -14,6 +14,6 @@ A collection of small exercises based on the challenges provided by [50 Projects
 | 09  | [Sound Board](https://github.com/gingerbread77/mini-projects/tree/main/sound-board)                                     | [Live Demo](https://illustrious-speculoos-43384b.netlify.app) |
 | 10  | [Random Jokes](https://github.com/gingerbread77/mini-projects/tree/main/random-jokes)                                   | [Live Demo](https://endearing-sorbet-83f22f.netlify.app)      |
 | 11  | [Event Keycodes](https://github.com/gingerbread77/mini-projects/tree/main/keycodes)                                     | [Live Demo](https://candid-pavlova-2a707c.netlify.app)        |
-| 12  | [Faq COllapse](https://github.com/gingerbread77/mini-projects/tree/main/faq-collapse)                                   | [Live Demo](https://meek-crepe-351b8e.netlify.app)            |
+| 12  | [Faq Collapse](https://github.com/gingerbread77/mini-projects/tree/main/faq-collapse)                                   | [Live Demo](https://meek-crepe-351b8e.netlify.app)            |
 | 13  | [Random Choice Picker](https://github.com/gingerbread77/mini-projects/tree/main/random-choice)                          | [Live Demo](https://graceful-fenglisu-a73757.netlify.app)     |
 | 15  | [Increment Counter](https://github.com/gingerbread77/mini-projects/tree/main/increment-counter)                         | [Live Demo](https://jade-valkyrie-b84a21.netlify.app)         |
