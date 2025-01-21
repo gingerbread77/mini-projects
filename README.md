@@ -17,3 +17,4 @@ A collection of small exercises based on the challenges provided by [50 Projects
 | 12  | [Faq Collapse](https://github.com/gingerbread77/mini-projects/tree/main/faq-collapse)                                   | [Live Demo](https://meek-crepe-351b8e.netlify.app)            |
 | 13  | [Random Choice Picker](https://github.com/gingerbread77/mini-projects/tree/main/random-choice)                          | [Live Demo](https://graceful-fenglisu-a73757.netlify.app)     |
 | 15  | [Increment Counter](https://github.com/gingerbread77/mini-projects/tree/main/increment-counter)                         | [Live Demo](https://jade-valkyrie-b84a21.netlify.app)         |
+| 17  | [Movie App](https://github.com/gingerbread77/mini-projects/tree/main/Movie-App)                                         | [Live Demo](https://jazzy-faun-4f73e7.netlify.app)            |
