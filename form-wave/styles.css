@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  background-color: lightblue;
+}
+
+#form {
+  background-color: rgb(34, 65, 89);
+  color: #fff;
+  height: 470px;
+  width: 50%;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+#form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #fff;
+  outline: none;
+  font-size: 1rem;
+  caret-color: #fff;
+  color:#fff;
+}
+
+#form h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+#login-btn {
+  padding: 15px 0;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: lightblue;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+p a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+/* Keyframe for moving letters upwards*/
+@keyframes moveUp {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+/* Keyframe for moving letters downwards */
+@keyframes moveDown {
+  0% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.input-group label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  animation: moveUp 0.3s ease-out forwards;
+}
+
+.input-group label.blur span {
+  animation: moveDown 0.3s ease-out forwards;
+}
